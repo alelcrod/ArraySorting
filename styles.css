@@ -1,0 +1,101 @@
+/* Alexandra Rodriguez
+ */
+
+
+/* sets the initial visibility of all elements with class visChange to hidden
+ * this is important- this makes it so the buttons, metrics, unsorted & sorted data-boxes are not initially visible 
+ * later on the JavaScript will change this
+ */
+.visChange {
+    visibility: hidden;
+}
+
+
+/* change the font size & family of entire body */
+body {
+    font-size: larger;
+    font-family: sans-serif;
+    
+}
+
+
+/* set the width and margin of all elements with class para */
+.para {
+    width: 950px;
+    margin: auto;
+    
+}
+
+
+/* change the headers */
+h1, h2, h3 {
+    color: #f7786b;
+    font-family: serif;
+    text-decoration: underline;
+}
+
+
+/* center directions for input and input */
+#sizeIn {
+    text-align: center;
+}
+
+
+/* set properties for the input box, where user will input an intger that will be used to generate an array */
+input {
+    width: 125px;
+    height: 50px;
+    margin: auto;
+    background: #dbe2f0;
+    border: 5px double #f7786b;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* set properties for the two data-boxes that will contain an array */
+div.visChange {
+    width: 900px;
+    height: 150px;
+    margin: auto;
+    padding: 2px 2px 2px 2px;
+    background: #fce9e9;
+    border: 5px double #034f84;
+    overflow: scroll;
+    
+    
+}
+
+
+/* make buttons centered */
+#buttons {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* set properties of the two sort buttons */
+button {
+    width: 175px;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    padding: 2px 2px 2px 2px;
+    /*border: 5px inset #f7786b;*/
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    background: #034f84;
+    color: white;
+}
+
+
+
+#method {
+    font-size: medium;
+    font-style: oblique;
+}
+
+
+
